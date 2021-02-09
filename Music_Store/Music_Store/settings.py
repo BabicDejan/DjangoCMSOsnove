@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Music_Store.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['bands','cms'],
+        'DIRS': [BASE_DIR /'bands/templates/bands',BASE_DIR /'CMS/templates/cms'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
